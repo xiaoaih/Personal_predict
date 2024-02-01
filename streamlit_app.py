@@ -8,7 +8,7 @@ plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
 
 warnings.filterwarnings('ignore')
 
-model = joblib.load("D:/Pytorch环境/接单/单四/randomforest.joblib")
+model = joblib.load('randomforest.joblib')
 
 with st.form("my_form"):
    slider_shenzang = st.number_input('慢性肾脏病分期(shenzang)')
